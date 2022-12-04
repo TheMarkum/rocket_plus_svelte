@@ -1,0 +1,9 @@
+[package]
+name = "login_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.4.11" }
+serde = { version = "1.0.148", features = ["derive"] }
+rocket_contrib = { version = "0.4.10", default-features = false, features = ["serve", "json"] }
